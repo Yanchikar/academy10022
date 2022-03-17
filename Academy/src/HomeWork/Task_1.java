@@ -14,6 +14,7 @@ public class Task_1 {
 		System.out.println("Укажите ваш возраст");
 		int age = s.nextInt();
 
+		
 //		System.out.println("Возраст " + age);
 
 		double sum_1 = sum - (sum * 0.05);
