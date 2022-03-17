@@ -5,12 +5,12 @@ public class Task_2 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Введите тип данных");
-		String meow = scanner.nextLine();
+		String type = scanner.nextLine();
 		System.out.println("Введите число");
 		Double num = scanner.nextDouble();
 		
 		
-		switch(meow) {
+		switch(type) {
 		case "int" :
 			if (num % 2==0) {
 				System.out.println("Вы ввели четное число. Остаток о деления равен 0...");
@@ -34,11 +34,12 @@ public class Task_2 {
 			System.out.print("Квадрат числа "  + num + " равен:");
 			System.out.println(num*num);
 			break;
-//		case "Char":
-//			System.out.println("Заколдовала твое число в "  + .сharAt(0));
-//			break;
-//		case "char":			System.out.println("Квадрат числа "  + num + " равен:");			System.out.println(num*num);
-//			break;
+		case "Char":
+			System.out.println("Превратил твое число в "  + (int)type.charAt(0));
+			break;
+		case "char":
+			System.out.println("Превратил твое число в "  + (int)type.charAt(0));
+			break;
 		case "String":
 			System.out.println("Ну здравствуй! "  + num + ", ворвался в твою жизнь как камикадзе...");
 			break;
