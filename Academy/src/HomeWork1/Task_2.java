@@ -1,4 +1,4 @@
-package HomeWork;
+package HomeWork1;
 
 import java.util.Scanner;
 
@@ -14,11 +14,19 @@ public class Task_2 {
 		switch (type) {
 		case "int":
 			if (num % 2 == 0) {
-				System.out.println("Вы ввели четное число. Остаток о деления равен 0...");
+				System.out.println("Вы ввели четное число. Остаток от деления равен 0...");
 			} else {
 				System.out.println("Остаток от деления на введенное число равен " + num % 2);
 			}
 			break;
+		case "Int":
+			if (num % 2 == 0) {
+				System.out.println("Вы ввели четное число. Остаток от деления равен 0...");
+			} else {
+				System.out.println("Остаток от деления на введенное число равен " + num % 2);
+			}
+			break;
+
 		case "double":
 			System.out.print("Если я украду 30 % от твоего числа " + num + ", у тебя останется:");
 			System.out.println(num * 0.7);
