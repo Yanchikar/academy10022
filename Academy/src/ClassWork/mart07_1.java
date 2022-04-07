@@ -20,6 +20,7 @@ public class mart07_1 {
 			System.out.println("Enter correct value: ");
 			n = scanner.nextInt();
 		}
+		System.out.println();
 
 		int[] k = new int[n];
 		for (int i = 0; i < n; i++) {
