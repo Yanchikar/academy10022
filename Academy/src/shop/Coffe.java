@@ -11,6 +11,7 @@ public class Coffe extends Product {
 	}
 
 	public Coffe(double d, int i, String string, String string2) {
+		
 	}
 
 	public String getMilk() {
